@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+
+span {
+  color: #ff2f2f;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.top-nav,
+.product-home-display,
+.product-display {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container {
+  width: 60%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.nav-bar-menu,
+.product-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  width: 40px;
+}
+
+.comp-logo {
+  max-width: 150px;
+}
+
+.product-home-display,
+.product-home-display-content {
+  min-height: 450px;
+}
+
+.product-home-display {
+  background: url('../bg.jpg') no-repeat center center/cover;
+}
+
+.product-home-content p,
+.product-home-more-content p {
+  margin: 10px 0px;
+}
+
+.product-home-display-content {
+  width: 60%;
+  padding: 20px;
+}
+
+.product-img {
+  border-radius: 30px;
+  max-width: 400px;
+  margin-top: 25px;
+}
+
+.product-details {
+  min-height: 400px;
+  margin: 25px 0px 0px 30px;
+  padding: 20px;
+}
+
+.product-details,
+.product-home-display {
+  color: #fff;
+}
+
+.product-details h4 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  letter-spacing: 1.8px;
+}
+
+.product-details span {
+  padding-right: 7px;
+}
+
+.price {
+  font-size: 1.4rem;
+  transform: translateY(40px);
+}
+
+.priceDetails {
+  transform: translateY(60px);
+}
+
+.btn-link {
+  margin-top: 20px;
+}
+
+.btn {
+  transform: translateY(80px);
+}
+
+.btn,
+.btn-link {
+  background: #ff2f2f;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-link {
+  position: relative;
+  top: 30px;
+}
+
+.btn-link,
+.back {
+  text-decoration: none;
+}
+
+.back {
+  color: #fff;
+}
